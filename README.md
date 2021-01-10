@@ -1,2 +1,1 @@
-# auth-demo
-Small application showing the work of the authorization form and some other functionality
+Some web application that implements the function of authorizing and logging out of a certain user, the application has a main form, an additional form to which you can switch from the main form and back. For authorization use: User login - user, Password - 111111.  Technologies which the application is written: back - Java, Spring (Boot, MVC, Data, Security), Hibernate; db - PostgreSQL; front - HTML, Bootstrap.
