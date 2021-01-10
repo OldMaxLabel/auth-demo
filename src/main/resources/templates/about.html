@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Обо мне</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<header th:insert="parts/header :: header"></header>
+
+<div class="text-center container mt-5">
+    <h5>Немного обо мне</h5>
+    <p>
+        Меня зовут Максим :) <br>
+        Я инженер по образованию, имею десятилетний опыт работы по специальности. <br>
+        Мечтаю начать карьеру Java-разработчиком и прикладываю к этому максимум усилий. <br>
+        Буду рад присоединиться к Вашей команде и целиком отдаться новому и полюбившемуся мне делу!
+    </p> <br><br>
+
+        <h6>Подробнее о моих навыках</h6>
+        <i>Резюме: <a href="https://spb.hh.ru/resume/41459970ff07a100fb0039ed1f676c70374c43" target="_blanc">spb.hh.ru</a></i> <br><br>
+
+        <h6>Для связи со мной</h6>
+        <i>Почта: <a href="mailto:m_isaenkov@gmail.com">m_isaenkov@gmail.com"</a></i> <br>
+        <i>Телефон: <a href="tel:+79215997209">+79215997209</a></i>
+</div>
+
+<div th:insert="parts/footer :: footer"></div>
+
+</body>
+</html>

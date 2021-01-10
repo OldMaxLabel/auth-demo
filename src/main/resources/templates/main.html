@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>Главная</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<header th:insert="parts/header :: header"></header>
+
+<div class="text-center container mt-5">
+    <h5>Здравствуй, уважаемый посетитель!</h5>
+    <div>
+        Это небольшое web-приложение - пример работы формы авторизации. <br>
+        Обязательно попробуйте воспользоваться возможностью оставить сообщение. <br>
+        Удачи!
+    </div> <br><br>
+    <a href="/message">Оставить сообщение</a>
+</div>
+
+<div th:insert="parts/footer :: footer"></div>
+
+</body>
+</html>
